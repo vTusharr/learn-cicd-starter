@@ -7,8 +7,8 @@ on:
 jobs:
     Style:
         name: Style
-        runs-on : debian-latest
-        
+        runs-on : ubuntu-slim
+
         steps:
             - name: Check out code
               uses: actions/checkout@v4
@@ -21,8 +21,6 @@ jobs:
             - name: testingg
               run: test -z $(go fmt ./...)
 
-        
-    
     tests:
         name: Tests
         runs-on: ubuntu-latest
