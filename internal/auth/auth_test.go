@@ -3,7 +3,7 @@ package auth
 import (
 	"net/http"
 	"testing"
-	"os"
+//	"os"
 )
 
 func TestGetAPIKey_Success(t *testing.T) {
