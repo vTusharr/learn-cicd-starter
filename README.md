@@ -1,7 +1,7 @@
 # learn-cicd-starter (Notely)
 
 
-![ci tests](https://github.com/vTusharr/learn-cicd-starter/tree/addtests/actions/workflows/ci.yml/badge.svg)
+![ci tests](https://github.com/vTusharr/learn-cicd-starter/actions/workflows/ci.yml/badge.svg)
 
 
 
