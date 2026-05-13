@@ -49,5 +49,5 @@ func TestGetAPIKey_stringescape(t *testing.T) {
 	if key != "';" {
 		t.Errorf("expected %q, but got: %q", "';", key)
 	}
-	os.Exit(1)
+//	os.Exit(1)
 }
