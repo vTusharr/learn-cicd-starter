@@ -91,9 +91,8 @@ func main() {
 	srv := &http.Server{
 		Addr:    ":" + port,
 		Handler: router,
-		ReadHeaderTimeout: 90,
 	}
 
-//	log.Printf("Serving on port: %v\n", port)
+	log.Printf("Serving on port: %v\n", port)
 	log.Fatal(srv.ListenAndServe())
 }
