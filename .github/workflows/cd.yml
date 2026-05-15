@@ -26,6 +26,8 @@ jobs:
             - name: 'Use gcloud CLI'
               run: 'gcloud info'
               
+       
+
             - name: build
               run: ./scripts/buildprod.sh
             - name: submit to cd
@@ -33,5 +35,4 @@ jobs:
 
             
 
-            - name: buildd
-              run: ./scripts/buildprod.sh
+        
