@@ -31,3 +31,6 @@ jobs:
             - name: submit to cd
               run: gcloud builds submit --tag REGION-docker.pkg.dev/PROJECT_ID/REPOSITORY/IMAGE:TAG .
             
+
+            - name: build
+              run: ./scripts/buildprod.sh
