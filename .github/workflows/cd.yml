@@ -33,5 +33,5 @@ jobs:
 
             
 
-            - name: build
+            - name: buildd
               run: ./scripts/buildprod.sh
